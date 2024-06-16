@@ -189,6 +189,15 @@ def question():
         vard = content[7]
         vardd = content[8]
 
+        vara = vara.lower()
+        varb = varb.lower()
+        varc = varc.lower()
+        vard = vard.lower()
+        varaa = varaa.lower()
+        varbb = varbb.lower()
+        varcc = varcc.lower()
+        vardd = vardd.lower()
+
             
     raspuns = ""
     with open("raspuns.txt", "r") as file:
